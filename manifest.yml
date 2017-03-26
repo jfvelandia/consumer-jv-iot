@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: consumer-jv-iot
+  host: consumer-jv-iot
+  disk_quota: 1024M
+  services:
+  - consumer-jv-iot-cloudantNoSQLDB
